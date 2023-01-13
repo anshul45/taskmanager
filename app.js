@@ -10,7 +10,7 @@ app.get("/hello", (req, res) => {
   res.send("Task Manager app");
 });
 
-app.use("/tasks", tasks);
+app.use("/api/v1/tasks", tasks);
 
 const port = 3000;
 
